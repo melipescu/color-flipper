@@ -9,15 +9,12 @@
         #yellow {
             background-color: yellow;
         }
-
         #blue {
             background-color: blue;
         }
-
         #red {
             background-color: red;
         }
-
         button {
             border-radius: 10px;
             width: 100px;
@@ -26,7 +23,6 @@
         }
     </style>
 </head>
-
 <body>
     <h3>Color Flipper</h3>
     <button id="yellow" onclick="setColor('yellow')">Yellow</button>
@@ -46,29 +42,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Flipper</title>
+
+    <style>
+        #red {
+            background-color: red;
+        }
+
+        #blue {
+            background-color: blue;
+        }
+
+        #yellow {
+            background-color: yellow;
+        }
+
+        button {
+            border-radius: 50px;
+            width: 100px;
+            height: 25px;
+            margin: 10px;
+        }
+    </style>
 </head>
-
-<style>
-    #red {
-        background-color: red;
-    }
-
-    #blue {
-        background-color: blue;
-    }
-
-    #yellow {
-        background-color: yellow;
-    }
-</style>
 
 <body>
     <h3>Color Flipper</h3>
-    <button id="red" onclick="red">Red</button>
-    <button id="blue">Blue</button>
-    <button id="yellow">Yellow</button>
+    <button id="red" onclick="setColor('red')">Red</button>
+    <button id="blue" onclick="setColor('blue')">Blue</button>
+    <button id="yellow" onclick="setColor('yellow')">Yellow</button>
     <button>Random</button>
 
+    <script src="index.js"></script>
 </body>
 
 </html>
